@@ -1,0 +1,359 @@
+/*Sageevan.p Others*/
+/*Dewpura D.A.M.M. header part*/
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.header {
+  background: #575b62;
+  height: 180px;
+  width: 100%;
+  display: block;
+  z-index: 100;
+  position: relative;
+}
+.logo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  float: left;
+  width: 600px;
+  height: 170px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.avatar{
+  float: right;
+  width:80px;
+}
+.button1 button{
+
+  background-color: #0a8086;
+  margin: 8px 4px 4px 4px;
+  width: 140px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1px 2px;
+  cursor: pointer;
+  display: block;
+  color: white;
+  border: none;
+}
+.button1 button:not{
+  border-bottom: none;
+}
+.button1 button:hover{
+  background-color: #0c666b;
+}
+.button1 {
+  float: right;
+  padding-right:10px ;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #31363f;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+  background-color: #575b62;
+  color: white;
+}
+
+.navbar input{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+
+.container1 {
+  width: 90%;
+  border: 1px solid black;
+  background-image: url("../images/banner.jpg");
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+body {
+  background-image: url("../images/back.jpeg");
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.form {
+  width: 90%;
+  padding: 12px 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.form p {
+  font-size: 20px;
+  float: bottom;
+}
+
+.form input {
+  font-size: 20px;
+  width: 80%;
+  margin-left: 30px;
+  padding: 10px 10px;
+}
+
+.form2 {
+  width: 90%;
+  padding: 12px 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.form2 p {
+  font-size: 20px;
+  float: bottom;
+}
+
+.col4 {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+}
+
+.col3 {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  text-align: right;
+}
+
+.custom-select1 {
+  position: relative;
+  font-family: Arial;
+  font-size: 15px;
+  width: 40%;
+  padding: 5px 5px;
+  color: gray;
+}
+
+.form3 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-sizing: border-box;
+  line-height: 1.5;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.form3 label {
+  font-size: 20px;
+  float: bottom;
+}
+
+.form3 image {
+  font-size: 20px;
+  margin-right: 30px;
+  padding-left: 30px;
+}
+
+.container2 {
+  width: 55%;
+  padding: 12px 20px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  float: left;
+}
+
+.formp {
+  font-size: 25px;
+  float: bottom;
+  margin-left: 7%;
+}
+
+.inputbox input {
+  font-size: 20px;
+  width: 70%;
+  margin-left: 2%;
+  padding: 10px 10px;
+}
+
+.inputbox2 input {
+  font-size: 20px;
+  width: 30%;
+  margin-left: 2%;
+  padding: 10px 10px;
+  float: left;
+}
+
+.inputbox3 input {
+  font-size: 20px;
+  width: 38%;
+  margin-left: 2%;
+  padding: 10px 10px;
+}
+
+.inputbox4 input {
+  font-size: 20px;
+  width: 45%;
+  margin-left: 2%;
+  padding: 10px 10px;
+  float: left;
+}
+
+.inputbox5 input {
+  font-size: 20px;
+  width: 40%;
+  margin-left: 2%;
+  padding: 10px 10px;
+}
+
+.inputbox6 input {
+  font-size: 20px;
+  width: 87%;
+  margin-left: 2%;
+  padding: 10px 10px;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  font-size: 20px;
+  width: 40%;
+  margin-left: 2%;
+  padding: 10px 10px;
+  color: gray;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.paybutton {
+  background-color: #0a8086;
+  margin: 8px 4px 4px 4px;
+  width: 140px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1px 2px;
+  cursor: pointer;
+  display: block;
+  color: white;
+}
+
+.paybutton:not {
+  border-bottom: none;
+}
+
+.paybutton:hover {
+  background-color: #0c666b;
+}
+
+.paybutton {
+  float: right;
+  padding-right: 10px;
+}
+
+.form4 {
+  width: 30%;
+  background-color: white;
+  padding: 12px 0px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  float: left;
+}
+
+.form4 h2 {
+  font-size: 25px;
+  text-align: center;
+  float: bottom;
+}
+
+.form4 p {
+  font-size: 20px;
+  float: bottom;
+}
+
+.col5 {
+  width: 35%;
+  margin-left: 5%;
+  float: left;
+  line-height: 4;
+}
+
+.col6 {
+  width: 28%;
+  margin-left: 14%;
+  float: left;
+  line-height: 4;
+}
+
+h6 {
+  font-size: 20px;
+  font-style: italic;
+  color: darkgreen;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: crimson;
+}
+
+#paymeth {
+  margin-top: 20px;
+}

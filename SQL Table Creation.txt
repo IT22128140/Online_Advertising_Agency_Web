@@ -1,0 +1,140 @@
+CREATE TABLE q_and_a
+(
+	question_ID int AUTO_INCREMENT PRIMARY KEY not null,
+    question varchar(500) not null
+);
+CREATE TABLE faq
+(
+	faq_ID int AUTO_INCREMENT PRIMARY KEY not null,
+    faq_question varchar(100) not null,
+    faq_answer varchar(500) not null
+);
+CREATE TABLE admin
+(
+	admin_id int AUTO_INCREMENT PRIMARY KEY not null,
+	name varchar (50) not null,
+	username varchar (25) not null,
+	password varchar (50) not  null
+);
+
+
+/*Table for Registered User*/ 
+CREATE TABLE Registered_User 
+( 
+  Customer_ID int AUTO_INCREMENT PRIMARY KEY not null,
+  Company_Name varchar(200) not null,
+  StreetNumber varchar(10) not null,
+  SteetName varchar(300) not null,
+  City varchar(20) not null,
+  Province_OR_State varchar(20) not null,
+  Country varchar(20) not null,
+  PostalCode decimal(5) not null,
+  Company_Email varchar(300) not null,
+  Company_ContactNumber varchar(13) not null,
+  Company_WebsiteURL varchar(300) not null,
+  Industry_FocusedOn varchar(50) not null,
+  Rep_FirstName varchar(50) not null,
+  Rep_LastName varchar(60) not null,
+  Rep_Designation varchar(60) not null,
+  Rep_ContactNumber varchar(13) not null,
+  Rep_Email varchar(300) not null,
+  UserName varchar(20) not null,
+  User_Password varchar(15) not null
+ );
+
+
+/*after creating the registered user table write this querry as adding a column*/
+ALTER TABLE registered_user ADD Accepted_Terms TINYINT(1) DEFAULT 0;
+
+
+
+
+/*Table for Proposal*/
+CREATE TABLE Proposal
+( 
+  Proposal_ID int AUTO_INCREMENT PRIMARY KEY not null, 
+  Company_Name varchar(200) not null,
+  ProjectMonthlyBudget int not null,
+  Currency varchar(5) not null,
+  MainTargetAudience varchar(200) not null,
+  Requirment varchar(1000)Not Null,
+  Advertisement_option ENUM('Yes', 'No')
+ );
+
+
+
+
+
+/*Table for Advertisement Publication*/
+CREATE TABLE Advertisement_Publication 
+( 
+  Advertisement_ID int AUTO_INCREMENT PRIMARY KEY not null, 
+  Company_Name varchar(300) not null, 
+  MainTargetAudience varchar(200) not null,
+  Instagram varchar(3) NOT NULL DEFAULT 'No',
+  Facebook varchar(3) NOT NULL DEFAULT 'No',
+  Twitter varchar(3) NOT NULL DEFAULT 'No',
+  YouTube varchar(3) NOT NULL DEFAULT 'No',
+  Reddit varchar(3) NOT NULL DEFAULT 'No',
+  FilePath varchar(255)
+);
+
+/*Table for service payment*/
+CREATE TABLE service_payment
+(
+service_ID int AUTO_INCREMENT PRIMARY KEY not null,
+Company_Name varchar(200) not null,
+Company_Email varchar(300) not null,
+Amount int not null,
+Seasonal_Offer varchar(50) not null,
+Membership_Offer int not null,
+Payment_Method varchar(50) not null,
+Card_Number int not null,
+Expire_Date varchar(20) not null,
+CVV int not null,
+First_Name varchar(50) not null,
+Last_Name varchar(60) not null,
+StreetNumber varchar(10) not null,
+StreetName varchar(300) not null,
+City varchar(20) not null,
+Province_State varchar(20) not null,
+PostalCode decimal(5,0) not null,
+Country varchar(20) not null
+);
+
+/*Table for pending payments*/
+CREATE TABLE pending_payment
+(
+P_Invoice_ID int AUTO_INCREMENT PRIMARY KEY not null,
+Amount int not null,
+Customer_ID int not null,
+FOREIGN KEY (Customer_ID) REFERENCES registered_user(Customer_ID)
+);
+
+CREATE TABLE membership_payment
+(
+  M_Invoice_number INT AUTO_INCREMENT PRIMARY KEY not null,
+  Company_name VARCHAR(100) not null ,
+  Company_email VARCHAR(100) not null,
+  Payment_date DATE DEFAULT CURRENT_TIMESTAMP not null,
+  Package VARCHAR(10) not null,
+  Payment_method VARCHAR(15) not null,
+  Card_number DECIMAL(16,0) not null,
+  Expires varchar(5) not null,	 
+  CVV DECIMAL(3,0) not null,
+  First_name VARCHAR(20) not null,
+  Last_name VARCHAR(20) not null,
+  Street_number VARCHAR(10) not null,
+  Street_name VARCHAR(40) not null,
+  City VARCHAR(20) not null,
+  State VARCHAR(20) not null,
+  Postal DECIMAL(5,0) not null,
+  Country VARCHAR(20) not null
+);
+CREATE Table contactus
+(
+Question_ID int AUTO_INCREMENT PRIMARY KEY not null, 
+Name varchar (30) not null, 
+Phone_number varchar(13) NOT NULL,
+Email varchar (100) NOT null, 
+Message varchar (1000) not null);

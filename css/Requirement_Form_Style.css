@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header {
+  background: #575b62;
+  height: 180px;
+  width: 100%;
+  display: block;
+  z-index: 100;
+}
+.logo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  float: left;
+  width: 600px;
+  height: 170px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.avatar{
+  float: right;
+  width:80px;
+}
+.button1 button{
+
+  background-color: #0a8086;
+  margin: 8px 4px 4px 4px;
+  width: 140px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 1px 2px;
+  cursor: pointer;
+  display: block;
+  color: white;
+  border: none;
+}
+.button1 button:not{
+  border-bottom: none;
+}
+.button1 button:hover{
+  background-color: #0c666b;
+}
+.button1 {
+  float: right;
+  padding-right:10px ;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #31363f;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+  background-color: #575b62;
+  color: white;
+}
+.navbar a.active {
+  background-color: #67c9ce;
+  color: black;
+}
+.navbar input{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+body{
+	background-image : url("../images/testing.avif")
+}
+
+.box {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.area {
+  width: 40%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+input[type=button]{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 500px;
+  cursor: pointer;
+}
+
+#label11{
+	width : 200px;
+	display : inline-block;
+}
+
+#form{
+	width : 1000px;
+	margin : auto;
+	padding : 40px;
+	font-size : 14px;
+	font-family : Verdana;
+	color : white;
+	background-color : #575b62;
+}
+
+#label12{
+  width : 400px;
+	display : inline-block;
+  margin-top: 20px;
+}

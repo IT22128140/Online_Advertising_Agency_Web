@@ -1,0 +1,140 @@
+.header {
+    background: #575b62;
+    height: 180px;
+    width: 100%;
+    display: block;
+    z-index: 100;
+    position: relative;
+}
+.logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 600px;
+    height: 170px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.avatar{
+    float: right;
+    width:80px;
+}
+.button1 button{
+
+    background-color: #0a8086;
+    margin: 8px 4px 4px 4px;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+}
+.button1 button:not{
+    border-bottom: none;
+}
+.button1 button:hover{
+    background-color: #0c666b;
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active1 {
+    background-color: #67c9ce;
+    color: black;
+}
+.navbar input{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+body{
+    background-image: url("../images/privacy\ img.jpg");
+    background-attachment: fixed; 
+    background-size: 100% 110vh;
+    background-repeat: no-repeat;
+ 
+}
+
+.privacy {
+   
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+
+}
+
+.privacy h2{
+    color: rgb(225, 228, 231);
+    font-family: 'Playfair Display', serif;
+    font-size: 80px ;
+    text-align: center;
+    line-height: 4;
+    padding-top: 0%;
+}
+
+.paragraph {
+    background-color: rgb(170, 169, 168);
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    position: sticky;
+    z-index: -1;
+}
+.paragraph p{
+    color: rgb(58, 58, 58);
+    text-align: left;
+    line-height: 1.5;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px 30px 30px 30px;
+    
+   
+}
+
+.click{
+    color: rgb(12, 23, 61);
+}
+.click:hover{
+    color: aqua;
+}

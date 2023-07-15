@@ -1,0 +1,241 @@
+.header {
+    background: #575b62;
+    height: 180px;
+    width: 100%;
+    display: block;
+    z-index: 100;
+    position: relative;
+}
+.logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 600px;
+    height: 170px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.avatar{
+    float: right;
+    width:80px;
+}
+.button1 button{
+
+    background-color: #0a8086;
+    margin: 8px 4px 4px 4px;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+}
+.button1 button:not{
+    border-bottom: none;
+}
+.button1 button:hover{
+    background-color: #0c666b;
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active3 {
+    background-color: #67c9ce;
+    color: black;
+}
+.navbar input{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+body{
+    
+    background-image: url("../images/contactus.jpg");
+
+    background-attachment: fixed; 
+    background-size: 100% 110vh;
+    background-repeat: no-repeat;
+ 
+
+    
+}
+
+.contact .CS h1{
+
+    text-align: center;
+    font-family:'Playfair Display', serif;
+    color: white;
+    font-size: 80px;
+    margin-top: 5%;
+ 
+  
+  }
+
+
+.contact .CS p{
+    text-align:center;
+    font-family:sans-serif ;
+    font-size: 25px;
+    color: #ede7e7;
+    padding-top: 50px;
+
+}
+
+
+#cfrm{
+    
+    margin-left: 40px;
+    align-items:left ;
+    min-height: 50vh;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    position: sticky;
+   
+}
+
+#cfrm .frm {
+  background: #e3dbdb;
+  color: #141313;
+  border: none;
+  height: 40px;
+  width:260px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 80px;;
+  opacity: 0.9;
+
+
+}
+
+#cfrm textarea{
+    background:#d4d1d1 ;
+    border:none;
+    width:78%;
+    padding:10px;
+    min-height:200px;
+    max-height:400px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-size: 17px;
+   
+}
+
+
+#cfrm .button{
+    float:right;
+    background:rgb(96, 137, 151);
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height:40px;
+    margin-right: 220px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#cfrm .button:hover{
+    background-color: white;
+}
+
+.Mq h2{
+    color: rgb(187, 185, 185);
+    margin-top:50px;
+    margin-left:300px;
+  
+    
+}
+
+.Mq .button {
+    background-color: #b2b8b2;
+    border: none;
+    border-radius:5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 330px;
+   
+}
+
+.Mq .button:hover{
+    background-color:white;
+}
+
+.CB{
+    background-color: rgb(226, 225, 225);
+    opacity:0.6;
+    display: flex;
+}
+
+.CB h2{
+    margin-left: 90px;
+    margin-top: 30px;
+    line-height: 1.2;
+}
+
+.CAinfo{
+padding-top: 60px;
+margin-top: 30px;
+}
+
+.CB  p{
+    box-sizing:border-box;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-left: 400px;
+  
+}
+
+.CB .a{
+    padding-top: 30px;
+    float: right;
+}
+

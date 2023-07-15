@@ -1,0 +1,227 @@
+/*Nethsiluni A.S.*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    background: #575b62;
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+.logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 600px;
+    height: 170px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.avatar{
+    float: right;
+    width:80px;
+}
+.button1 button{
+
+    background-color: #0a8086;
+    margin: 8px 4px 4px 4px;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+}
+.button1 button:not{
+    border-bottom: none;
+}
+.button1 button:hover{
+    background-color: #0c666b;
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active {
+    background-color: #67c9ce;
+    color: black;
+}
+.navbar input{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------------------------------------------*/
+
+body {
+    background-image: url("../images/profile.png");
+    background-color: #a0f4f8;
+}
+.profilehead {
+    color: #0a8086;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 80px; 
+    flex-wrap: wrap;  
+}
+.company {
+    width: 650px;
+}
+.representative {
+    width: 650px;
+}
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    background-color: #0a8086;
+    border: 1px solid #0a8086;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+fieldset {
+    border: 1px solid #0a8086;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.details {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    line-height: 3.0;
+}
+.data {
+    color: gray;
+}
+.rep {
+    width: 100px;
+    height: 100px;
+}
+.rep-username-setting {
+    display: flex;
+    align-content: flex-start;
+    gap: 50px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.buttonss {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.btnn
+{
+    height: 50 px;
+    width: 150px;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a8086;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn {
+    height: 95 px;
+    width: 220px;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a8086;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn:hover {
+    background-color: #094e52;
+}
+.projects {
+    width: 650px;
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.project-details {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    line-height: 1.4;
+}
+.projects .project-details ul {
+    padding-left: 40px;
+}
+.projects .project-details .list {
+    font-size: 17px;
+    list-style-type: disc;
+    padding-left: 4px;
+}
+#progressChart {
+    max-width: 650px;
+    height: 300px;
+}

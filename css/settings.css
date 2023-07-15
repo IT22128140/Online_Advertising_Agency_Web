@@ -1,0 +1,180 @@
+/*Nethsiluni A.S.*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    background: #575b62;
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 600px;
+    height: 170px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.avatar {
+    float: right;
+    width:80px;
+}
+.button1 button {
+    background-color: #0a8086;
+    margin: 8px 4px 4px 4px;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+}
+.button1 button:not {
+    border-bottom: none;
+}
+.button1 button:hover {
+    background-color: #0c666b;
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active {
+    background-color: #67c9ce;
+    color: black;
+}
+.navbar input {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------------------------------------------*/
+
+body {
+    background-color: #a7f1f5;
+}
+.details {
+    width: 500px;
+}
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    background-color: #0a8086;
+    border: 1px solid #0a8086;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+fieldset {
+    border: 1px solid #0a8086;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    line-height: 3.0;
+    text-align: left;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#submit-save {
+    height: 50px;
+    width: 150px;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a8086;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+#submit-save:hover {
+    background-color: #094e52;
+}
+#submit-cancel {
+    height: 50px;
+    width: 150px;
+    padding: 0px;
+    border: 1px solid #0a8086;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #0a8086;
+    cursor: pointer;
+}
+#submit-cancel:hover {
+    background-color: #094e52;
+    color: white;
+}
+#submit-delete {
+    height: 50px;
+    width: 150px;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(173, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+#submit-delete:hover {
+    background-color: rgb(82, 1, 1);
+}

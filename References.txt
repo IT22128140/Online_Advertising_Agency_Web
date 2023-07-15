@@ -1,0 +1,5 @@
+
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://stackoverflow.com/questions/43299759/how-do-i-make-multiple-slideshows-in-the-same-html-document
+https://www.w3schools.com/
+https://www.youtube.com/watch?v=fC3j2U_UZrQ

@@ -1,0 +1,152 @@
+/*Nethsiluni A.S.*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    background: #575b62;
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+    width: 600px;
+    height: 170px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.avatar {
+    float: right;
+    width:80px;
+}
+.button1 button {
+    background-color: #0a8086;
+    margin: 8px 4px 4px 4px;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 1px 2px;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+}
+.button1 button:not {
+    border-bottom: none;
+}
+.button1 button:hover {
+    background-color: #0c666b;
+}
+.button1 {
+    float: right;
+    padding-right:10px ;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: #31363f;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
+ }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar a:hover {
+    background-color: #575b62;
+    color: white;
+}
+.navbar a.active {
+    background-color: #67c9ce;
+    color: black;
+}
+.navbar input {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.terms h1 {
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #66c4c9a6;
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+body {
+    background-image: url("../images/termsbg.png");
+    background-color: #095255;
+}
+
+h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+}
+.para1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 900px;
+    padding: 10px;
+    justify-content: justify;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: 25px;
+}
+ul {
+    padding-left: 40px;
+}
+ol {
+    padding-left: 40px;
+}
+li.a {
+    list-style-type: disc;
+    padding-left: 2px;
+
+}
+li.b {
+    list-style-type: lower-alpha;
+    padding-left: 2px;
+}
